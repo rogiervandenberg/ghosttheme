@@ -1,0 +1,44 @@
+/**
+ * SCSS template for the sites base styles
+ *
+ * @package Ghost
+ * @subpackage Plattan
+ * @since Plattan 1.0
+ */
+
+body {
+    background: $light;
+    color: $text;
+}
+
+a {
+    color: $color-1;
+    text-decoration: none;
+}
+
+h1 a {
+    color: $text;
+}
+
+input, textarea, select, input[type="submit"], input[type="button"] {
+    @include appearance(none);
+    -webkit-border-radius:0!important;
+    border-radius:0!important;
+    -webkit-appearance: none!important;
+    padding: 0;
+}
+
+video {
+	width: 100%;
+	height: auto;
+}
+
+iframe,
+embed,
+object {
+	width: 100%;
+}
+
+.site {
+	overflow: hidden;
+}

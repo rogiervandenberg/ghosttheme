@@ -1,0 +1,30 @@
+<header class="sidebar-header">
+
+    <div class="first">
+        <div class="header-content">
+            <a class="blog-title" href="{{@blog.url}}" title="{{@blog.title}}">
+                {{@blog.title}}
+                <span class="byline">{{@blog.description}}</span>
+            </a>
+            <div class="social-icons">
+                <a href="{{@blog.url}}/een-korte-introductie" title="Over Rogier"><img src="http://www.rogiervandenberg.nl/content/images/2014/Dec/Rogier-rozeshirt-square-whitebg.jpg"></a>
+				<a href="http://www.twitter.com/rogiervdberg" title="Rogier op Twitter">&#x6b;</a>
+				<a href="https://plus.google.com/+RogiervandenBerg?rel=author" title="Google Plus">l</a>
+                <a href="https://nl.linkedin.com/in/rogiervandenberg" title="LinkedIn">m</a>
+                <a href="http://facebook.com/rogiervandenberg" title="Facebook">&#x6a;</a>
+            </div>
+        </div>
+    </div>
+    <div class="second">
+        <a class="expander" title="Show menu">
+        	<div class="expand"><span class="icon"></span>Menu</div>
+        	<div class="collapse"><span class="icon collapse"></span>Collapse</div>
+        </a>
+		<!--div class="cover-wrapper">
+			<img class="cover" src="{{@blog.cover}}" alt="" title="" />
+		</div-->
+       
+            {{navigation}}
+    </div>
+
+</header>
